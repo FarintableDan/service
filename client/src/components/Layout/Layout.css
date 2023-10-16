@@ -1,0 +1,16 @@
+.layout {
+    position: relative;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    margin-top: 16px;
+}

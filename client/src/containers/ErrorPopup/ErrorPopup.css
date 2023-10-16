@@ -1,0 +1,19 @@
+.errorPopup {
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    align-items: center;
+
+    background: rgba(239, 207, 227, 1);
+
+    padding: 16px;
+
+    border-radius: 4px;
+}
+
+.errorPopup__text {
+    margin-right: 8px;
+}
